@@ -41,6 +41,18 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "Green Money Plant",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTy9nfPx8TtatYUsBq0ERV-IZsXMAAlmEgO1WNGZSnqetrr9_eN",
+      "price": "12.34",
+      "id": 8
+    },
+    {
+      "name": "Money Plant Gold",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRj4dlrz-5-VLAovlT5mHYEQDw3iMDTYAYXh9JCOzBsS_42gRCbyP8HK18xohbyhtun-o&usqp=CAU",
+      "price": "12.34",
+      "id": 9
     }
   ]
 }
