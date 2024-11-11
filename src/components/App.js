@@ -29,7 +29,8 @@ function App() {
     fetch(plantAPI, {
       method: 'POST',
       headers: {
-        'Content-Type': 'Application/JSON'
+        'Content-Type': 'Application/JSON',
+        'X-Master-Key':'$2a$10$p49Rrpj9wwrB4Lz1ct6UOeU0lRwfOB292qPuUnLKDYBxVaFRwqB/a'
       },
       body: JSON.stringify(plant),
     })
