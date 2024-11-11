@@ -9,6 +9,11 @@ function PlantCard({ plant, onClickPlant }) {
     try {
       const response = await fetch(`https://api.jsonbin.io/v3/b/6731d089acd3cb34a8a66743/${plant.id}`, {
         method: "DELETE",
+        headers: {
+          'Content-Type': 'Application/JSON',
+          'X-Master-Key':'$2a$10$p49Rrpj9wwrB4Lz1ct6UOeU0lRwfOB292qPuUnLKDYBxVaFRwqB/a',
+          'X-Access-Key ':'$2a$10$T.SlEk6WXC/HZLEJGGsyre5KFOxKNCQ6BX9zNO2A5sarjjeobpcp.'
+        },
       });
       
       if (!response.ok) {
