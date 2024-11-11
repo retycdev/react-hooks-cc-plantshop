@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-hooks-cc-plantshop/static/css/main.b213a747.css",
-    "main.js": "/react-hooks-cc-plantshop/static/js/main.fe9615df.js",
+    "main.js": "/react-hooks-cc-plantshop/static/js/main.5b777669.js",
     "index.html": "/react-hooks-cc-plantshop/index.html",
     "main.b213a747.css.map": "/react-hooks-cc-plantshop/static/css/main.b213a747.css.map",
-    "main.fe9615df.js.map": "/react-hooks-cc-plantshop/static/js/main.fe9615df.js.map"
+    "main.5b777669.js.map": "/react-hooks-cc-plantshop/static/js/main.5b777669.js.map"
   },
   "entrypoints": [
     "static/css/main.b213a747.css",
-    "static/js/main.fe9615df.js"
+    "static/js/main.5b777669.js"
   ]
 }
