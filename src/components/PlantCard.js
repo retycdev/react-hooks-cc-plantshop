@@ -5,7 +5,7 @@ function PlantCard({plant, onClickPlant}) {
   const [inStock, setInStock] = useState(true);
 
   const handleDeletePlant = () => {
-    fetch(`https://github.com/retycdev/react-hooks-cc-plantshop/blob/master/db.json/${plant.id}`, {
+    fetch(`https://raw.githubusercontent.com/retycdev/plantsy_db/refs/heads/main/db.json/${plant.id}`, {
       method: "DELETE",
     })
       .then((r) => r.json())
