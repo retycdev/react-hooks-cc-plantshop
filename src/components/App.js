@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "./Header";
 import PlantPage from "./PlantPage";
 
-const plantAPI = 'https://raw.githubusercontent.com/retycdev/plantsy_db/refs/heads/main/db.json';
+const plantAPI = 'https://api.jsonbin.io/v3/b/6731d089acd3cb34a8a66743';
 
 function App() {
   const [plants, setPlants] = useState([]);

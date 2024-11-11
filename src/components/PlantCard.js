@@ -7,7 +7,7 @@ function PlantCard({ plant, onClickPlant }) {
 
   const handleDeletePlant = async () => {
     try {
-      const response = await fetch(`https://raw.githubusercontent.com/retycdev/plantsy_db/refs/heads/main/db.json/${plant.id}`, {
+      const response = await fetch(`https://api.jsonbin.io/v3/b/6731d089acd3cb34a8a66743/${plant.id}`, {
         method: "DELETE",
       });
       
