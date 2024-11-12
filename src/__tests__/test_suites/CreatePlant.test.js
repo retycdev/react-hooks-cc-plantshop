@@ -17,7 +17,7 @@ describe('2nd Deliverable', () => {
         fireEvent.change(getByPlaceholderText('Price'), { target: { value: firstPlant.price } });
         fireEvent.click(getByText('Add Plant'))
 
-        expect(fetch).toHaveBeenCalledWith("http://localhost:6001/plants", {
+        expect(fetch).toHaveBeenCalledWith("https://my-json-server.typicode.com/retycdev/react-hooks-cc-plantshop/db", {
             method: "POST",
             headers: {
               "Content-Type": "Application/JSON",
