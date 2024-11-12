@@ -7,7 +7,7 @@ function PlantCard({ plant, onClickPlant }) {
 
   const handleDeletePlant = async () => {
     try {
-      const response = await fetch(`https://my-json-server.typicode.com/retycdev/react-hooks-cc-plantshop/db/${plant.id}`, {
+      const response = await fetch(`https://my-json-server.typicode.com/retycdev/react-hooks-cc-plantshop/plants/db/${plant.id}`, {
         method: "DELETE",
         headers: {
           'Content-Type': 'Application/JSON',
