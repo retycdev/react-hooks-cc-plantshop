@@ -30,8 +30,6 @@ function App() {
       method: 'POST',
       headers: {
         'Content-Type': 'Application/JSON',
-        'X-Master-Key':'$2a$10$p49Rrpj9wwrB4Lz1ct6UOeU0lRwfOB292qPuUnLKDYBxVaFRwqB/a',
-        'X-Access-Key ':'$2a$10$T.SlEk6WXC/HZLEJGGsyre5KFOxKNCQ6BX9zNO2A5sarjjeobpcp.'
       },
       body: JSON.stringify(plant),
     })
