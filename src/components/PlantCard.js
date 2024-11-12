@@ -7,7 +7,7 @@ function PlantCard({ plant, onClickPlant }) {
 
   const handleDeletePlant = async () => {
     try {
-      const response = await fetch(`https://api.jsonbin.io/v3/b/6731d487e41b4d34e4523002/${plant.id}`, {
+      const response = await fetch(`https://github.com/retycdev/react-hooks-cc-plantshop/blob/master/db.json/${plant.id}`, {
         method: "DELETE",
         headers: {
           'Content-Type': 'Application/JSON',
