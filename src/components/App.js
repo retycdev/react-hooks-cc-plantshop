@@ -34,7 +34,7 @@ function App() {
       body: JSON.stringify(plant),
     })
     .then(res => res.json())
-    .then(json => setPlants([...plants, json]))
+    .then(json => setPlants([...plants, plant]))
     .catch(err => setError(`Failed to add plant: ${err.message}`));
   }
 
